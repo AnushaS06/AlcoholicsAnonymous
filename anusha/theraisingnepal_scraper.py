@@ -129,5 +129,5 @@ tbl = pd.DataFrame({'Headlines' : headlines,
                     'Keywords' : keywords,
                     'Summaries' : summaries,})
 #tbl = tbl.dropna()
-tbl.to_csv('Katmandu.csv', index=False)
+tbl.to_csv('theraisingnepal_data.csv', index=False)
 tbl.head()
